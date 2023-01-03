@@ -14,7 +14,6 @@ cc_library(
     ]),
     includes = ["."],
     defines = [
-        # See https://github.com/asherikov/qpmad/issues/9
-        # "EIGEN_MPL2_ONLY",
+        "EIGEN_MPL2_ONLY",
     ],
 )
