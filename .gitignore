@@ -2,3 +2,4 @@ bazel-bazel_qpmad
 bazel-bin
 bazel-out
 bazel-testlogs
+tools/bazel
