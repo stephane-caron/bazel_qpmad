@@ -37,7 +37,7 @@ cc_binary(
 From this repository, run:
 
 ```console
-$ bazel run //examples:demo
+./tools/bazelisk run //examples:demo
 ```
 
 This example should output:
