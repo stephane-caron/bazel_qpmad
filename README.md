@@ -1,6 +1,6 @@
-# bazel_qpmad
+# Bazel rules for qpmad
 
-Rules for building C++ targets that depend on [qpmad](https://github.com/asherikov/qpmad).
+Workspace rules for building C++ targets that depend [qpmad](https://github.com/asherikov/qpmad).
 
 ## Setup
 
