@@ -11,9 +11,9 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
     name = "bazel_qpmad",
-    url = "https://github.com/stephane-caron/bazel_qpmad/archive/refs/tags/v0.1.0.tar.gz",
-    sha256 = "...",
-    strip_prefix = "bazel_qpmad-0.1.0",
+    url = "https://github.com/stephane-caron/bazel_qpmad/archive/refs/tags/v1.3.0.tar.gz",
+    sha256 = "9104a1e67df14dbf0c44f68621b648275051786de44e031c978ad561e5bf9c27",
+    strip_prefix = "bazel_qpmad-1.3.0",
 )
 
 load("@bazel_qpmad//tools/workspace:default.bzl", add_bazel_qpmad = "add_default_repositories")
