@@ -3,8 +3,8 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 def qpmad_repository(
-        version = "1.3.0",
-        sha256 = "c98511961a5d8d65ebb7d3bbc21f5c9410309ea4991b837d1f8211accd77480e"):
+        version = "1.4.0",
+        sha256 = "6034bfd895bda550d3e1d5906634bc34b90f21d390c2662ac33ea5024cbfa4ed"):
     """
     Clone repository from GitHub and make its targets available for binding.
 
