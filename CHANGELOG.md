@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Update Eigen target to a pkg-config rule rather than an http-archive one 
+- Update qpmad to 1.4.0
 
 ## [1.3.0] - 2024-08-29
 
