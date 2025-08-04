@@ -2,6 +2,14 @@
 
 Workspace rules for building C++ targets that depend [qpmad](https://github.com/asherikov/qpmad).
 
+## Prerequisites
+
+These rules requires Eigen installed on your system with CMake configuration files. For example, on Ubuntu 22.04:
+
+```console
+sudo apt install libeigen3-dev
+```
+
 ## Setup
 
 Add the following to your ``WORKSPACE`` file:
