@@ -14,7 +14,7 @@ sudo apt install libeigen3-dev
 
 Add to your `WORKSPACE` file the `http_archive` instruction from the [release page](https://github.com/stephane-caron/bazel_qpmad/releases/tag/v1.4.0).
 
-You will then be able to build C++ targets that depend on ``@qpmad``:
+You can then define C++ targets that depend on ``@qpmad``:
 
 ```python
 cc_binary(
